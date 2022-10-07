@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "f1-poetry-package"
+version = "0.1.0"
+description = "Dependency management package for the F1 Telemetry Analytics project."
+authors = ["kaankork <kaankorkmaz93@gmail.com>"]
+readme = "README.md"
+packages = [{include = "f1_poetry_package"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
